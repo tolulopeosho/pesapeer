@@ -1,0 +1,23 @@
+// COLOR STACK
+$pesa-green:    #33A452;
+$pesa-yellow:   #FCBE0B;
+$pesa-purple:   #6C5DD3;
+$pesa-blue:     #408CFB;
+
+
+// CUSTOM THEME
+$theme-colors: (
+        "pesa-green": $pesa-green,
+        "pesa-yellow": $pesa-yellow,
+        "pesa-purple": $pesa-purple,
+        "pesa-blue": $pesa-blue,
+);
+
+
+
+
+// Global Settings
+$easy-transition      :                  all 0.6s ease-in-out;
+$feather-shadow       :                  0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+$soft-shadow          :                  0 0 5px 5px rgba(0, 0, 0, 0.03);
+$soft-border-radius   :                  10px;

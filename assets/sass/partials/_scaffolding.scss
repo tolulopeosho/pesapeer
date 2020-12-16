@@ -1,0 +1,302 @@
+.width-limiter {
+  line-height: 29.9992px;
+  padding: 10px 59px 6px 59px;
+  letter-spacing: 0.35px;
+  font-size: 14px;
+  box-shadow: $soft-shadow;
+}
+
+.page-width-limiter {
+  padding: 0 79px 0 79px;
+}
+
+
+
+
+
+section#hero {
+  min-height: 100vh;
+  max-height: 700px;
+  background: #FFFFFF url("../images/hero-bg.png") right;
+
+
+  .logo-menu {
+    padding: 30px 0 30px 0;
+
+    ul.top-links {
+      list-style: none;
+      li {
+        display: inline-block;
+        margin-left: 30px;
+
+        a {
+          color: #FFFFFF;
+          text-decoration: none;
+
+          &:hover {
+            color: $pesa-blue;
+          }
+        }
+      }
+    }
+  }
+
+  h1.lead-text {
+    font-size: 38px;
+    line-height: 45px;
+    color: #666666;
+    margin-bottom: 30px;
+    margin-top: 100px;
+  }
+  p.sub-text {
+    line-height: 26px;
+    font-size: 18px;
+  }
+
+  img.hero-image {
+    max-height: 550px;
+  }
+
+
+  .available-countries {
+    margin-top: 80px;
+
+    span.tag-name {
+      font-size: 12px;
+      color: #666;
+    }
+
+    ul.list-countries {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin-right: 40px;
+        padding: 0;
+        font-size: 14px; font-weight: 600; color: #666;
+        display: flex;
+        align-items: center;
+        float: left;
+        min-height: 40px;
+
+        img {margin-right: 4px; }
+        span {line-height: 23px;}
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+section.features-pane {
+  padding: 110px 0 110px 0;
+
+  p.pre-text {
+    color: $pesa-blue;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+  }
+
+  h4.main-section-text {
+    font-size: 26px;
+    color: #666;
+    margin-bottom: 92px;
+  }
+
+  .feature-box {
+    margin-bottom: 30px;
+
+    h5 {
+      font-size: 22px;
+      font-weight: 800;
+      color: #666;
+      margin-top: 0;
+      padding-top: 0;
+    }
+    img {
+      height: 50px;
+    }
+
+    p {
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+section.best-rates-pane {
+  background: url("../images/main-banner.png");
+  background-size: cover;
+
+  .inner-overlay {
+    min-height: 600px;
+    max-height: 600px;
+    background-color: rgb(23, 97, 222, 0.4);
+
+    h1,p {
+      color: #FFF;
+    }
+
+  }
+}
+
+
+
+
+
+
+section.faq {
+  padding: 110px 0 110px 0;
+
+  p.pre-text {
+    color: $pesa-blue;
+    text-transform: uppercase;
+    font-size: 16px;
+    display: block;
+    font-weight: bold;
+  }
+
+  h4.main-section-text {
+    font-size: 26px;
+    color: #666;
+    margin-bottom: 92px;
+  }
+
+  .faq-box {
+    min-height: 135px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: $feather-shadow;
+    padding: 20px;
+    margin-bottom: 30px;
+    transition: transform .2s; /* Animation */
+
+    &:hover {
+      transition: $easy-transition;
+      transform: scale(1.5);
+      -moz-transform: scale(1.5);
+      -webkit-transform: scale(1.5);
+    }
+
+    a {
+      text-decoration: none;
+      color: #333;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .response-box {
+      padding-top: 20px;
+
+      span.response {
+        font-size: 13px;
+        color: #888;
+      }
+    }
+
+
+  }
+}
+
+
+
+
+
+section.footerArea {
+  padding: 100px 0 100px 0;
+  background: #FFF;
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      padding-bottom: 15px;
+      font-size: 14px;
+
+      a {
+        text-decoration: none;
+        color: #555;
+      }
+    }
+  }
+
+  ul.social {
+    li {
+      display: inline-block;
+      margin-right: 30px;
+      a {
+        font-size: 20px;
+        color: #00AAF0;
+        text-decoration: none;
+
+        &:hover {
+          color: #444;
+        }
+      }
+
+    }
+  }
+}
+
+
+
+
+
+//Responsiveness
+@media (pointer: coarse) and (hover: none) {
+
+  .width-limiter {
+    padding: 15px 15px 5px 15px;
+  }
+
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .page-width-limiter {
+    padding: 0 15px 0 15px;
+  }
+
+
+  section#hero {
+    background: #FFFFFF url("../images/hero-bg.png") left;
+
+    .available-countries {
+      margin-top: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
